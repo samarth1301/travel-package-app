@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import {BrowserRouter as Router , Route ,Link, Routes} from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Navbar from './components/Navbar.js';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path = "/" exact element={<LandingPage/>}/>
         </Routes>
+        <Footer/>
       </Router>
 
 

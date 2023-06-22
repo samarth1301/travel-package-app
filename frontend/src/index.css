@@ -119,3 +119,119 @@ code {
 .custcolor{
     color: #ff9900;
 }
+
+/* footer */
+
+.footer {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .footer .footer-mm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .footer-link-div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .footer .footer-link-div:first-child{
+      width: 350px;
+      font-size: 18px;
+      margin: 1rem;
+  }
+  
+  .footer .footer-link-div h2{
+      color: #ff9900;
+      font-weight: bold;
+  }
+  
+  .footer a{
+      text-decoration: none;
+  }
+  .footer a p{
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a p:hover {
+    color: #ff9900;
+    padding-left: 2px;
+  }
+  
+  .footer .social-media {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer .social-media i {
+    margin:0 10px 0 10px;
+    color: #ff9900;
+    font-size: 20px;
+  }
+  .footer .social-media i:hover{
+      font-size: 24px;
+  }
+  
+  
+  
+  .footer .footer-link-div h4 {
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+  }
+  
+  .footer .footer-link-div p {
+    line-height: 15px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .below-links {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    background-color: #585858;
+  }
+  .below-links a{
+      text-decoration: none;
+      color: #000;
+      font-weight: lighter;
+  }
+  .below-links a:hover{
+      color : #222;
+  }
+  
+  .below-links p {
+    line-height: 15px;
+    margin-left: 2rem;
+    font-weight: 600;
+  }
+  
+  .footer hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #555555;
+    margin: 1rem 0;
+  }
+  
+  .footer .copyright {
+    line-height: 15px;
+    font-weight: 600;
+  }
