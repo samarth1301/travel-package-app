@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap");
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+    font-family: "Urbanist", sans-serif;
+    width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -20,8 +19,103 @@ code {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
-    width: 100%;
+.home-btn {
+    background-color: #ff9900;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
+.home-btn:hover {
+    background-color: #FFFFFF;
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    padding: auto;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    transition: transform 0.5s ease;
+}
+
+
+.nav-name:hover {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #b46c00;
+    color: white;
+}
+
+.nav-name {
+    padding: 5px 35px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9900;
+}
+
+.nav-name .fa-user {
+    color: #FFFFFF;
+    margin-top: 2px;
+    text-shadow: #0000006e 0.5px 1px 5px;
+    margin-left: -1rem;
+    position: absolute;
+}
+
+.nav-name .fa-caret-down {
+    color: #FFFFFF;
+    margin-top: 2px;
+    text-shadow: #0000006e 0.5px 1px 5px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.header {
+    background: #111111;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.nav-title a {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-menu a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.nav-menu .home:hover,
+.nav-menu .about:hover {
+    color: #ff9900;
+    transform: scale(1.1, 1.1);
+}
+.custcolor{
+    color: #ff9900;
+}
