@@ -18,7 +18,7 @@ code {
     padding: 0;
     box-sizing: border-box;
 }
-
+/* ============================Navbar=========================== */
 .home-btn {
     background-color: #ff9900;
     padding: 20px 25px;
@@ -41,8 +41,15 @@ code {
     transform: scale(1.1, 1.1);
     transition: transform 0.5s ease;
 }
+.pay {
+  padding: 5px 15px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff9900;
+}
 
-
+.pay:hover,
 .nav-name:hover {
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
     background-color: #b46c00;
@@ -120,7 +127,9 @@ code {
     color: #ff9900;
 }
 
-/* footer */
+/* ============================Navbar Ends=========================== */
+
+/* ============================Footer=========================== */
 
 .footer {
     background-color: #111111;
@@ -235,3 +244,68 @@ code {
     line-height: 15px;
     font-weight: 600;
   }
+
+  /* ============================Footer Ends=========================== */
+  /* ============================Landing Page=========================== */
+  .land-page-img {
+    background: url("./img/land.jpg") no-repeat center center fixed !important;
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    background-size: cover !important;
+    color: #000;
+}
+
+.land-hover {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+.land-hover h1 {
+    padding-top: 150px;
+    font-size: 60px;
+    color: #ffff;
+}
+
+.land-hover h3 {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.land-hover button {
+    margin-top: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    background-color : #ff9900;
+    color: white;
+    transition: all 0.5s ease;
+    box-shadow: 3px 2px 10px 0px rgba(14, 14, 14, 0.781);
+    margin-bottom: 150px;
+}
+
+.land-hover button:hover {
+    background-color: #aa6701;
+    color: white;
+    
+}
+
+.card{
+    transition: border-color 0.3s, transform 0.3s;
+}
+.card:hover{
+    border-color: #ff9900 !important;
+    transform: scale(1.1);
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+  color: #ff9900; /* Change to desired text color */
+}
+/* ============================Landing Page Ends=========================== */
