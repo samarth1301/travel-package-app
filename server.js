@@ -1,11 +1,21 @@
 const express = require('express');
 const path = require("path")
+const dbConfig = require("./db");
+
+
+//routes
+
+const usersRoute = require("./routes/usersRoute");
+
 
 const app = express()
 
 
-
 app.use(express.json())
+
+
+
+app.use("/api/users", usersRoute);
 
 
 
@@ -21,4 +31,4 @@ app.get('*', function(_, res){
 
 
 const port = process.env.PORT || 5000;
-app.listen(port, () => console.log("Node server Started Using nodemon"));
+app.listen(port, () => console.log("Node server Started Using nodemon on port: ", port));
