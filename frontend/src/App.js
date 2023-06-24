@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import LandingPage from './pages/LandingPage';
+import AboutPage from './pages/AboutPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path = "/" exact element={<LandingPage/>}/>
           <Route path = "/home" exact element={<HomePage/>}/>
+          <Route path = "/about" exact element={<AboutPage/>}/>
         </Routes>
         <Footer/>
       </Router>
