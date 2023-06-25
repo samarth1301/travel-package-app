@@ -14,9 +14,9 @@ function Contact({ contacts }) {
           <div class="col">
             <div class="card bg-dark text-light">
               <div class="card-body text-white">
-                <h3 class="card-title">John Doe</h3>
-                <p class="card-text">Phone: +1 123-456-7890</p>
-                <p class="card-text">Email: john.doe@example.com</p>
+                <h3 class="card-title">Samarth</h3>
+                <p class="card-text">Phone: +91 6264274331</p>
+                <p class="card-text">Email: Samarth@gmail.com</p>
               </div>
             </div>
           </div>
@@ -24,9 +24,9 @@ function Contact({ contacts }) {
           <div class="col">
             <div class="card bg-dark text-light">
               <div class="card-body text-light bg-dark">
-                <h3 class="card-title">Jane Smith</h3>
-                <p class="card-text">Phone: +1 987-654-3210</p>
-                <p class="card-text">Email: jane.smith@example.com</p>
+                <h3 class="card-title">Praseet Patro</h3>
+                <p class="card-text">Phone: +91 8260181868</p>
+                <p class="card-text">Email: praseet2001@gmail.com</p>
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ function Contact({ contacts }) {
           <div class="col">
             <div class="card bg-dark text-light">
               <div class="card-body text-white bg-dark">
-                <h3 class="card-title">Mike Johnson</h3>
-                <p class="card-text">Phone: +1 555-555-5555</p>
-                <p class="card-text">Email: mike.johnson@example.com</p>
+                <h3 class="card-title">Shreyas</h3>
+                <p class="card-text">Phone: +91 9600017721</p>
+                <p class="card-text">Email: Shreyas2002@gmail.com</p>
               </div>
             </div>
           </div>
@@ -44,9 +44,9 @@ function Contact({ contacts }) {
           <div class="col">
             <div class="card bg-dark text-light">
               <div class="card-body text-white bg-dark">
-                <h3 class="card-title">Sarah Brown</h3>
-                <p class="card-text">Phone: +1 111-222-3333</p>
-                <p class="card-text">Email: sarah.brown@example.com</p>
+                <h3 class="card-title">Shivama</h3>
+                <p class="card-text">Phone: +91 9262565336</p>
+                <p class="card-text">Email: Shivama1234@gmail.com</p>
               </div>
             </div>
           </div>
