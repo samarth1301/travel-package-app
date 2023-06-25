@@ -18,7 +18,11 @@ code {
     padding: 0;
     box-sizing: border-box;
 }
+.cust-bg{
+  background-color: #111;
+}
 /* ============================Navbar=========================== */
+
 .home-btn {
     background-color: #ff9900;
     padding: 20px 25px;
