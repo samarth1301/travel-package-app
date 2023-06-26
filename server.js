@@ -4,7 +4,8 @@ const dbConfig = require("./db");
 
 
 //routes
-
+const placeRoute = require("./routes/placeRoute");
+const locationRoute = require("./routes/locationRoute");
 const usersRoute = require("./routes/usersRoute");
 
 
@@ -14,7 +15,8 @@ const app = express()
 app.use(express.json())
 
 
-
+app.use("/api/places", placeRoute);
+app.use("/api/locations", locationRoute);
 app.use("/api/users", usersRoute);
 
 
