@@ -132,7 +132,8 @@ code {
 }
 
 .nav-menu .home:hover,
-.nav-menu .about:hover {
+.nav-menu .about:hover,
+.nav-menu .contact:hover {
     color: #ff9900;
     transform: scale(1.1, 1.1);
 }
@@ -394,6 +395,50 @@ transform: scale(1.2);
 .header-img img {
     width: 95%;
     border-radius: 10px;
+}
+
+
+@media (max-width: 576px) {
+  
+  .content-title {
+    font-size: 24px;
+  }
+
+  .content-description {
+    font-size: 11px;
+
+  }
+  .card:hover{
+    margin-bottom: 10px;
+    transform: scale(1);
+  }
+  
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .content-title {
+    font-size: 28px;
+  }
+
+  .content-description {
+    font-size: 16px;
+  }
+}
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.map-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /* ============================ Home Page Ends(Tentative) =========================== */
