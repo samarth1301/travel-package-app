@@ -16,7 +16,7 @@ function HomePage() {
               Unlock Your Wanderlust <br /> Find and Reserve Your Ideal Tour
             </h1>
 
-            <p className="content-description">
+            <p className="mx-auto content-description">
               Immerse yourself in captivating destinations and embark on
               extraordinary adventures.
               <br />
