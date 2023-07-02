@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import LandingPage from './pages/LandingPage';
 import ContactPage from './pages/ContactPage.js';
-
+import FaQ from './pages/FaQ';
 import AboutPage from './pages/AboutPage';
 
 
@@ -22,6 +22,7 @@ function App() {
           <Route path = "/home" exact element={<HomePage/>}/>
           <Route path = "/contact" exact element={<ContactPage/>}/>
           <Route path = "/about" exact element={<AboutPage/>}/>
+          <Route path = "/faq" exact element={<FaQ/>}/>
         </Routes>
         <Footer/>
       </Router>
