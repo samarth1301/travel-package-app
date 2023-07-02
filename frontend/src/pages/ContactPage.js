@@ -49,8 +49,9 @@ function Contact({ contacts }) {
         </div>
         <h1 class="custcolor mt-5">Let's Meet</h1>
         <div className="map-container">
+          
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.67293400585!2d72.71637670539747!3d19.082502000719877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687608334183!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0410797840646!2d79.15116999678953!3d12.96922320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1688283641235!5m2!1sen!2sin"
             className="map-frame"
             allowfullscreen=""
             loading="lazy"
