@@ -423,6 +423,10 @@ transform: scale(1.2);
   .content-description {
     font-size: 16px;
   }
+  .card:hover{
+    margin-bottom: 10px;
+    transform: scale(1);
+  }
 }
 .map-container {
   position: relative;
