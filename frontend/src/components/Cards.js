@@ -9,8 +9,8 @@ function Desc() {
     <div className="land-page-img">
       <div className="land-hover">
         <h1>Welcome to our Travel Booking App</h1>
-        <div className="row mt-5">
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div className="row mt-5 d-flex justify-content-center">
+          <div className="col-lg-3 mx-5 col-md-6 col-sm-12 mb-4">
             <div className="card border-light text-bg-dark">
               <img src={img1} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -23,7 +23,7 @@ function Desc() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="col-lg-3 mx-5 col-md-6 col-sm-12 mb-4">
             <div className="card border-light text-bg-dark">
               <img src={img2} className="card-img-top" alt="..." />
               <div className="card-body">
@@ -36,7 +36,7 @@ function Desc() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="col-lg-3 mx-5 col-md-6 col-sm-12 mb-4">
             <div className="card border-light text-bg-dark">
               <img src={img3} className="card-img-top" alt="..." />
               <div className="card-body">

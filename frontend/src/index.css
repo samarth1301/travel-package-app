@@ -423,6 +423,10 @@ transform: scale(1.2);
   .content-description {
     font-size: 16px;
   }
+  .card:hover{
+    margin-bottom: 10px;
+    transform: scale(1);
+  }
 }
 .map-container {
   position: relative;
@@ -473,3 +477,42 @@ transform: scale(1.2);
 
 
 /* ============================About Page Ends=========================== */
+/* ============================FaQ Page Starts=========================== */
+.accord-cont{
+  background-color: #111;
+}
+.accordion{
+  
+  width: 50%;
+}
+
+.accordion-item {
+  background-color: #111 !important;
+  color: #fff !important;
+}
+.accordion-item.show {
+  background-color: #111 !important; 
+}
+
+.accordion-button {
+  background-color: #111 !important;
+  color: #ffffff !important; 
+}
+.accordion-button:not(.collapsed){
+  background-color: #ff9900 !important; 
+}
+.accordion-button::after{
+  filter: brightness(0%) invert() !important; 
+}
+.accordion-button:not(.collapsed)::after{
+  filter: brightness(0%) !important; 
+}
+
+.accordion-button::after {
+  color: #ffffff !important; 
+}
+.accordion-body{
+  text-align: justify;
+}
+/* ============================FaQ Page Ends=========================== */
+
