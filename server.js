@@ -7,8 +7,8 @@ const dbConfig = require("./db");
 const placeRoute = require("./routes/placeRoute");
 const locationRoute = require("./routes/locationRoute");
 const usersRoute = require("./routes/usersRoute");
-
-
+const bookinsRoute = require("./routes/bookingsRoute");
+const contactRoute = require("./routes/contactRoute")
 const app = express()
 
 
@@ -18,6 +18,8 @@ app.use(express.json())
 app.use("/api/places", placeRoute);
 app.use("/api/locations", locationRoute);
 app.use("/api/users", usersRoute);
+app.use("/api/contacts", contactRoute);
+app.use("/api/bookings" , bookinsRoute);
 
 
 
