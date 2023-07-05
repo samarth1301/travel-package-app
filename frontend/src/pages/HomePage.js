@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./CCarousel";
+import LocationPage from "./LocationPage";
 
 
 function HomePage() {
@@ -9,7 +10,6 @@ function HomePage() {
         <div className="header-img">
           <Carousel />
         </div>
-
         <div className="header-content">
           <div className="header-detail">
             <h1 className="content-title">
@@ -30,6 +30,7 @@ function HomePage() {
           </div>
         </div>
       </header>
+      <LocationPage/>
     </main>
   );
 }
