@@ -24,7 +24,7 @@ router.get("/getAllBookings", async(req,res)=>{
 
 });
 
-// admin screen add new locations
+
 
 router.post("/addlocation",async(req,res) => {
     try {
