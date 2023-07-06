@@ -683,7 +683,7 @@ option {
 }
 
 .inner:hover img {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .algn h1{
   font-size: 20px !important;

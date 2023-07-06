@@ -19,7 +19,7 @@ function Places({ places, fromDate, toDate }) {
                 </div>
 
             </div>
-            <div className="col-md-7">
+            <div className="col-md-7 algn">
                 <h1>{places.name}</h1>
                 {" "}
                 <p className="text">Max Count : {places.maxcount}</p>
