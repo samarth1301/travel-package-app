@@ -69,6 +69,7 @@ function LocationScreen() {
         <div>
         </div>
       </div>
+      
     </div>
   );
 }
