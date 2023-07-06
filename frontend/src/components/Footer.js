@@ -4,7 +4,8 @@ import logo from '../img/logo-100.png'
 function Footer() {
   return (
     <>
-      <div className="footer">
+    
+      <div className="footer"><hr/>
         <div className="footer-mm">
           <div className="footer-link">
             <div className="footer-link-div">

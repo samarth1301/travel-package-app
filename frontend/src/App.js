@@ -10,6 +10,7 @@ import LandingPage from './pages/LandingPage';
 import ContactPage from './pages/ContactPage.js';
 import FaQ from './pages/FaQ';
 import AboutPage from './pages/AboutPage';
+import PlacePage from './pages/PlacePage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path = "/contact" exact element={<ContactPage/>}/>
           <Route path = "/about" exact element={<AboutPage/>}/>
           <Route path = "/faq" exact element={<FaQ/>}/>
+          <Route path="/rooms/:name" exact element={<PlacePage/>}/>
         </Routes>
         <Footer/>
       </Router>
