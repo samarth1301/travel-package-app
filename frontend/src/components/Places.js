@@ -12,7 +12,7 @@ function Places({ places, fromDate, toDate }) {
     return (
 
         <div className="row box-shadow">
-            <div className="col-md-4">
+            <div className="col-4">
                 <div className="inner">
                     <img src={places.imageurls[0]} className="smallimg" alt='img.jpg' />
 
