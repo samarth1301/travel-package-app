@@ -55,22 +55,26 @@ function Navbar() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle text-light"
-                  href="#"
+                  href="/"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <i className="fa-solid fa-user"></i>
+                  <span className="uname">
+                     <i className="fa-solid fa-user me-2"></i>
+                  
                   {user.name}
-                  <i className="fa-sharp fa-solid fa-caret-down"></i>
+                  </span>
+                 
+                  
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/profile">
+                  <a className="dropdown-item text-dark" href="/profile">
                     Profile
                   </a>
-                  <a className="dropdown-item" href="#" onClick={logout}>
+                  <a className="dropdown-item text-dark" href="/" onClick={logout}>
                     Logout
                   </a>
                 </div>
