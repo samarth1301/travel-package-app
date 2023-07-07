@@ -11,7 +11,10 @@ import ContactPage from './pages/ContactPage.js';
 import FaQ from './pages/FaQ';
 import AboutPage from './pages/AboutPage';
 import PlacePage from './pages/PlacePage';
-
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ProfilePage from './pages/ProfilePage';
+import BookingPage from './pages/BookingPage';
 
 function App() {
   return (
@@ -25,6 +28,10 @@ function App() {
           <Route path = "/about" exact element={<AboutPage/>}/>
           <Route path = "/faq" exact element={<FaQ/>}/>
           <Route path="/rooms/:name" exact element={<PlacePage/>}/>
+          <Route path = "/login" exact element={<LoginPage/>}/>
+          <Route path = "/register" exact element={<RegisterPage/>}/>
+          <Route path = "/profile" exact element={<ProfilePage/>}/>
+          <Route path="/book/:id/:fromDate/:toDate" exact element={<BookingPage/>}/>
         </Routes>
         <Footer/>
       </Router>

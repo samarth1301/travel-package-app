@@ -4,7 +4,7 @@ import Locations from "../components/Locations";
 import Loader from "../components/Load";
 import Error from "../components/Error";
 
-function LocationScreen() {
+function LocationPage() {
   const [locations, setLocations] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -74,4 +74,4 @@ function LocationScreen() {
   );
 }
 
-export default LocationScreen;
+export default LocationPage;
