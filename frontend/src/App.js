@@ -15,6 +15,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ProfilePage from './pages/ProfilePage';
 import BookingPage from './pages/BookingPage';
+import FoodPage from './pages/FoodPage';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           <Route path = "/login" exact element={<LoginPage/>}/>
           <Route path = "/register" exact element={<RegisterPage/>}/>
           <Route path = "/profile" exact element={<ProfilePage/>}/>
+          <Route path = "/foods/:id" exact element={<FoodPage/>}/>
+
           <Route path="/book/:id/:fromDate/:toDate" exact element={<BookingPage/>}/>
         </Routes>
         <Footer/>
