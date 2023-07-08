@@ -81,23 +81,59 @@ export function MyBookings() {
         fetchData();
     }, [])
 
-    async function cancelBooking(bookingid, placesid) {
+    
+    // async function cancelBooking(bookingid, placesid) {
 
-        try {
-            setLoading(true);
-            const result = await (await axios.post("/api/bookings/cancelBooking", { bookingid, placesid })).data
-            console.log(result);
-            setLoading(false);
-            Swal.fire("Congrats", "Successfully Your Cancelled the Room", "success").then(result => {
-                window.location.reload()
-            });
-        } catch (error) {
-            console.log(error);
-            setLoading(false);
-            Swal.fire("Oops", "Something went wrong", "error");
+    //     try {
+    //         setLoading(true);
+    //         const result = await (await axios.post("/api/bookings/cancelBooking", { bookingid, placesid })).data
+    //         console.log(result);
+    //         setLoading(false);
+    //         Swal.fire("Congrats", "Successfully Your Cancelled the Room", "success").then(result => {
+    //             window.location.reload()
+    //         });
+    //     } catch (error) {
+    //         console.log(error);
+    //         setLoading(false);
+    //         Swal.fire("Oops", "Something went wrong", "error");
+    //     }
+
+    // }
+    
+
+async function cancelBooking(bookingid, placesid) {
+  try {
+    const confirmed = await Swal.fire({
+      title: "Are you sure?",
+      text: "You are about to cancel the booking.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonText: "Yes, cancel it!",
+      cancelButtonText: "No, keep it",
+      reverseButtons: true,
+    });
+
+    if (confirmed.isConfirmed) {
+      setLoading(true);
+      const result = await (await axios.post("/api/bookings/cancelBooking", {
+        bookingid,
+        placesid,
+      })).data;
+      console.log(result);
+      setLoading(false);
+      Swal.fire("Congrats", "Successfully Your Cancelled the Room", "success").then(
+        (result) => {
+          window.location.reload();
         }
-
+      );
     }
+  } catch (error) {
+    console.log(error);
+    setLoading(false);
+    Swal.fire("Oops", "Something went wrong", "error");
+  }
+}
+
 
     return (
         <div>
