@@ -932,4 +932,57 @@ option {
 .booking-row .right .cont {
   padding-left: 20px;
 }
+/*========FoodPage Start===================*/
+.food-main {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
 
+.food-header {
+    border-bottom: 2px solid black;
+}
+
+.food-container {
+    width: 80%;
+    max-width: 1160px;
+    display: grid;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: rgba(255, 248, 248, 0.15) 0px 5px 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+
+.head {
+    display: flex;
+}
+
+.food-main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.food-header {
+  border-bottom: 2px solid black;
+}
+
+.food-container {
+  width: 80%;
+  max-width: 1160px;
+  display: grid;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+  box-shadow: rgba(255, 248, 248, 0.15) 0px 5px 15px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 30px;
+}
+
+.head {
+  display: flex;
+}
+
+/*========FoodPage Ends===================*/
